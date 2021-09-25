@@ -23,7 +23,7 @@ bool conflict(int c, int r) {
         if (place_queens[i] == r) {  //左右衝突
             return true;
         }
-        if (abs(c - i) == abs(place_queens[i] - r)) {  //左上或左下斜對角
+        if (abs(c - i) == abs(r - place_queens[i])) {  //左上或左下斜對角
             return true;
         }
     }
