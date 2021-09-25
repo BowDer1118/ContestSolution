@@ -63,10 +63,6 @@ int main() {
 
         maxTotal = 0;
 
-        for (int i = 1; i <= 8; i++) {
-            place_queens[i] = -1;
-        }
-
         //找所有可能放置皇后的可能 並找大最大可能
         dfs(1);  //從Col 1 開始嘗試
 
