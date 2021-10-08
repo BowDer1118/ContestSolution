@@ -13,7 +13,7 @@ using namespace std;
     利用col的數值判斷在左邊還是右邊(是否可以到達) 
 */
 
-const int maxNum = 105;
+const int maxNum = 105 * 105;
 int r, c, x, y, pos;
 int arr[maxNum], lis[maxNum], num[maxNum], path[maxNum];
 bool hasG;
